@@ -19,7 +19,7 @@ export default function LoginPage(){
     localStorage.setItem('biblio_token', data.token);
     localStorage.setItem('biblio_token_user', JSON.stringify(data.user));
     alert('Logado como ' + data.user.name);
-    router.push('/');
+    router.push('/home');
   }
 
   return (
