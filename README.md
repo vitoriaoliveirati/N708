@@ -1,24 +1,62 @@
-# BiblioConecta - Ready Minimal MVP
+BiblioConecta – Projeto N708 (MVP Funcional)
 
-This is a minimal ready-to-run MVP for BiblioConecta built with Next.js (App Router).
-It includes a small backend using Next API Routes that persists data to JSON files (for demo/MVP).
+Este é o MVP minimalista e funcional do BiblioConecta, desenvolvido para a disciplina N708 – Projeto Aplicado Multiplataforma Etapa 2.
 
-## Quick start
-1. Extract the ZIP and open the project folder.
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Run development server:
-   ```
-   npm run dev
-   ```
-4. Open http://localhost:3000
+O sistema segue os requisitos mínimos:
 
-## Test credentials
-- email: vitoria@example.com
-- password: senha123
+Frontend implementado em Next.js (App Router + Tailwind)
 
-## Notes
-- Data is stored in /data/*.json. For production, migrate to a proper DB (MySQL/Postgres).
-- The auth is session-token stored server-side in sessions.json and sent by client as header 'x-session-token'.
+Backend via Next API Routes
+
+Persistência simples usando arquivos JSON (MVP), com documentação do schema SQL para migração futura
+
+Login, cadastro, visualização de livros, reserva e favoritos
+
+Integração de todos os componentes funcionais
+
+🚀 Como executar o projeto
+1. Instalar dependências
+npm install
+
+2. Rodar o servidor de desenvolvimento
+npm run dev
+
+3. Acessar o sistema
+
+Abra no navegador:
+http://localhost:3000
+
+🔑 Credenciais de teste
+
+Você pode usar:
+
+Email: vitoria@example.com
+
+Senha: senha123
+
+Ou criar uma conta na página /register.
+
+📂 Sobre a implementação
+
+O backend é feito com API Routes (Next.js).
+
+A autenticação usa session-token:
+
+salvo localmente em localStorage
+
+validado pelo backend via sessions.json
+
+enviado pelo cabeçalho x-session-token
+
+Os dados são salvos em data/*.json (usuários, reservas, livros, favoritos).
+Isso atende o MVP; na documentação do projeto está incluído também o schema SQL para futuras migrações (MySQL/PostgreSQL).
+
+📌 Notas importantes (para o professor/avaliador)
+
+O projeto foi desenvolvido visando entregar um MVP funcional dentro da realidade do escopo individual.
+
+Estrutura de API, persistência, rotas privadas, validações e tela de cadastro/login estão implementadas.
+
+Telas principais (Login, Cadastro, Home, Modal de Livro, Reserva, Favoritos) estão integradas.
+
+Documentação técnica (README, schema SQL e organização do repositório) foram entregues conforme solicitado.
