@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u1",
+    "email": "vitoria@example.com",
+    "password": "senha123",
+    "name": "Vitória Oliveira"
+  },
+  {
+    "id": "u1763172189942",
+    "email": "vitoriaoliveir@gmail.com",
+    "password": "88165955",
+    "name": "vitoria"
+  },
+  {
+    "id": "u1763172897552",
+    "email": "diego@gmail.com",
+    "password": "88165955",
+    "name": "Diego"
+  },
+  {
+    "id": "u1763173591837",
+    "email": "lindalva@gmail.com",
+    "password": "88165955",
+    "name": "lindalva"
+  }
+]

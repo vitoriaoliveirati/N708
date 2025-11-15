@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "titulo": "A arte de viver",
+    "autor": "Vitória Almeida",
+    "imagem": "https://placehold.co/200x300?text=A+arte+de+viver",
+    "sinopse": "Um guia sobre o significado da vida.",
+    "disponivel": true
+  },
+  {
+    "id": "2",
+    "titulo": "Vida longa",
+    "autor": "Maria Sandy",
+    "imagem": "https://placehold.co/200x300?text=Vida+longa",
+    "sinopse": "Reflexões sobre longevidade.",
+    "disponivel": false
+  },
+  {
+    "id": "3",
+    "titulo": "Bíblia",
+    "autor": "Vários autores",
+    "imagem": "https://placehold.co/200x300?text=Biblia",
+    "sinopse": "Coleção de livros sagrados.",
+    "disponivel": false
+  }
+]
